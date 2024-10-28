@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, const int& target) {
+    vector<int> twoSum(vector<int>& nums, const int target) {
 
         map<int, int> hashSearch;
         int index = 0;
