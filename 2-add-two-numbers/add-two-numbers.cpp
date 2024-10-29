@@ -16,7 +16,7 @@ public:
 
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 
-        int sum = l1->val + l2->val;
+        const int sum = l1->val + l2->val;
         int carry = 0;
 
         if(sum > 9){
